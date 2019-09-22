@@ -1,0 +1,32 @@
+﻿table {
+    border-style: solid;
+}
+
+th, td {
+    border-style: solid;
+}
+
+tbody>tr:nth-of-type(odd) {
+    background: lightblue;
+}
+
+tbody > tr:nth-of-type(-2n+4) {
+    background: lightgreen;
+}
+
+/*class selector*/
+.outer-content {
+    position: relative;
+    left: 0px;
+    margin-top: 20px;
+    width: 75%;
+    background-color: pink;
+}
+
+/*id selector*/
+#inner-content {
+    margin: 0 auto;
+    width: 75%;
+    background-color: lightskyblue;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Reps</th>
+		<th>Weight</th>
+		<th>Date</th>
+		<th>lbs</th>
+	</tr>
+	{{#each results}}
+	<tr>
+		<td>{{this.name}}</td>
+		<td>{{this.reps}}</td>
+		<td>{{this.weight}}</td>
+		<td>{{this.newdate}}</td>
+		<td>{{this.lbs}}</td>
+		<td><input type="button" id={{this.id}} name="edit" value="edit"></td>
+        <td><input type="button" id={{this.id}} name="delete" value="delete"></td>
+	</tr>
+	{{/each}}
+</table>

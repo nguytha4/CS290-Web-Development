@@ -1,0 +1,293 @@
+body {
+	background-color: #F7F9F9;
+	margin:0;
+}
+
+/****************************************************************************/
+
+.navbar {
+  overflow: hidden;
+  background-color: DodgerBlue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: RoyalBlue;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.bio {
+  padding: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+/****************************************************************************/
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/****************************************************************************/
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  margin:0 auto;
+  display:block;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/****************************************************************************/
+
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+
+/****************************************************************************/
+
+.bio {
+	max-width: 1000px;
+	position: relative;
+    margin: auto;
+}
+
+/****************************************************************************/
+
+iframe {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 0;
+}
+
+.videoBody {
+	margin-left: 543px;
+	margin-top: 50px;
+}
+
+/****************************************************************************/
+
+#fitnessdog {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	height: 766px;
+	width: 543px;
+}
+
+.fitnessbio {
+	max-width: 1000px;
+	position: relative;
+    margin: auto;
+	text-align: center;
+}
+
+.fitnessbody {
+	margin-left: 655px;
+	margin-top: 25px;
+}
+
+
+/****************************************************************************/
+
+
+#japan2 {
+	margin-left: 100px;
+	float:left;
+}
+
+
+.scrollbox {
+	width: 500px;
+	float:right;
+	margin-right: 150px;
+	overflow:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 500px;
+	border: 1px solid;
+}
+
+.japanbody {
+	clear:both;
+	top: 1000px;
+	margin-left: 700px;
+	margin-top: 25px;
+}
+
+li {
+	margin: 0;
+	padding: 0.2em;
+}
